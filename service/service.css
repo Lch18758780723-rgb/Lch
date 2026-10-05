@@ -75,7 +75,7 @@ button { font: inherit; }
 .setup-warning { background: var(--amber-soft); color: #5c3706; font-size: 14px; padding: 10px 0; border-bottom: 1px solid rgba(154, 92, 9, 0.25); }
 .setup-warning code { font-family: var(--font-mono); background: rgba(154, 92, 9, 0.14); padding: 1px 5px; border-radius: 5px; }
 
-.topbar { position: sticky; top: 0; z-index: 40; background: rgba(244, 246, 242, 0.86); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+.topbar { position: sticky; top: 0; z-index: 40; background: rgba(244, 246, 242, 0.86); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; }
 .brand { display: inline-flex; align-items: center; gap: 10px; flex: none; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
